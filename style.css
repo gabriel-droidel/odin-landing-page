@@ -100,6 +100,12 @@
     background-color: #3882F6;
   }
 
+  .header-intro button:hover{
+    color:#3882F6;
+    background-color: #F9FAF8;
+  }
+
+
   .header-intro .image-placeholder{
     background-color: gray;
     height: 200px;
@@ -191,6 +197,11 @@
     background-color: inherit;
     color:#F9FAF8;
 }
+.message button:hover{
+  color:#3882F6;
+  background-color: #F9FAF8;
+}
+
 .message h3{
     font-weight: 900;
 }
