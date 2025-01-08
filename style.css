@@ -180,3 +180,14 @@
 .message p{
     font-weight: 400;
 }
+
+/* Footer Style*/
+
+footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+}
