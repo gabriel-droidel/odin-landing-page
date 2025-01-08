@@ -1,0 +1,93 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16;
+  }
+  
+  body {
+    line-height: 1.5;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Page style */
+
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content{
+    flex:1;
+  }
+
+  /* Header Style*/
+
+  header{
+    padding:0.5rem 30rem 6rem 30rem;
+    background-color: blueviolet;
+    color:white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .header-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  .header-bar .logo{
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .header-bar ul{
+    display: flex;
+    gap:1rem;
+  }
+
+  header .header-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+  }
+
+  .header-intro *{
+    flex:1;
+  }
+  .header-intro h1{
+    font-size: 46px;
+    line-height: 1;
+  }
+
+  .header-intro p{
+    font-size:20px;
+  }
+  .header-intro button{
+    font-weight: 800;
+    background-color: blue;
+    color:white;
+    padding:5px 20px;
+    border-radius: 6px;
+    border:none;
+  }
+
+  .header-intro .image-placeholder{
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
